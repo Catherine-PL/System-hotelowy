@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.24)  9 DEC 2015 12:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.24)  9 DEC 2015 12:20
 entering extended mode
 **dokumentacjalatex.tex
-("D:\Biblioteka\Studia\V semestr\IO\Projekt\dokumentacjalatex.tex"
+("D:\Biblioteka\Studia\V semestr\IO\System-hotelowy\dokumentacjalatex.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -430,7 +430,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@loff=\dimen124
 \@vwid@roff=\dimen125
 ))
-("D:\Biblioteka\Studia\V semestr\IO\Projekt\dokumentacjalatex.aux")
+("D:\Biblioteka\Studia\V semestr\IO\System-hotelowy\dokumentacjalatex.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
@@ -472,8 +472,8 @@ LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <38> not available
 [1
 
 {C:/Users/USER/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <D:/Bibliotek
-a/Studia/V semestr/IO/Projekt/logoAgh.jpg>]
-("D:\Biblioteka\Studia\V semestr\IO\Projekt\dokumentacjalatex.toc"
+a/Studia/V semestr/IO/System-hotelowy/logoAgh.jpg>]
+("D:\Biblioteka\Studia\V semestr\IO\System-hotelowy\dokumentacjalatex.toc"
 LaTeX Font Info:    Try loading font information for OML+plm on input line 7.
 
 (C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\omlplm.fd
@@ -511,34 +511,34 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 144.
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 195--197
+Underfull \hbox (badness 10000) in paragraph at lines 193--195
 
  []
 
 <kontekstowy.png, id=23, 588.69937pt x 365.11406pt>
 File: kontekstowy.png Graphic file (type png)
  <use kontekstowy.png>
-Package pdftex.def Info: kontekstowy.png used on input line 205.
+Package pdftex.def Info: kontekstowy.png used on input line 203.
 (pdftex.def)             Requested size: 470.96013pt x 292.09163pt.
 
-Overfull \hbox (15.71602pt too wide) in paragraph at lines 205--205
+Overfull \hbox (15.71602pt too wide) in paragraph at lines 203--203
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--206
+Underfull \hbox (badness 10000) in paragraph at lines 200--204
 
  []
 
-[3 <D:/Biblioteka/Studia/V semestr/IO/Projekt/kontekstowy.png>]
+[3 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/kontekstowy.png>]
 <DFDpoziom0.png, id=27, 395.97937pt x 767.11594pt>
 File: DFDpoziom0.png Graphic file (type png)
  <use DFDpoziom0.png>
-Package pdftex.def Info: DFDpoziom0.png used on input line 216.
+Package pdftex.def Info: DFDpoziom0.png used on input line 214.
 (pdftex.def)             Requested size: 277.18367pt x 536.9775pt.
 
-[4 <D:/Biblioteka/Studia/V semestr/IO/Projekt/DFDpoziom0.png>]
-("D:\Biblioteka\Studia\V semestr\IO\Projekt\dokumentacjalatex.aux")
+[4 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/DFDpoziom0.png>]
+("D:\Biblioteka\Studia\V semestr\IO\System-hotelowy\dokumentacjalatex.aux")
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.17pt have occurred.
@@ -546,7 +546,7 @@ LaTeX Font Warning: Size substitutions with differences
  ) 
 Here is how much of TeX's memory you used:
  3066 strings out of 493921
- 40594 string characters out of 3147285
+ 40666 string characters out of 3147285
  97258 words of memory out of 3000000
  6286 multiletter control sequences out of 15000+200000
  16680 words of font info for 38 fonts, out of 3000000 for 9000
@@ -566,7 +566,7 @@ Users\USER\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200
 \eccc1440.pk> <C:\Users\USER\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
 ec\dpi600\eccc1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb>
-Output written on dokumentacjalatex.pdf (5 pages, 269641 bytes).
+Output written on dokumentacjalatex.pdf (5 pages, 269700 bytes).
 PDF statistics:
  318 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
