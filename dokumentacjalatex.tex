@@ -1,0 +1,221 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage[polish]{babel}
+\usepackage[MeX]{polski}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage{times}
+\usepackage{graphicx,wrapfig}
+%\usepackage{anysize}
+%\usepackage{tikz}
+%\usetikzlibrary{calc,through,backgrounds,positioning}
+\usepackage{anysize}
+\usepackage{float}
+\usepackage{adjustbox}
+%\usepackage{stmaryrd}
+%\usepackage{amssymb}
+%\usepackage{amsthm}
+%\marginsize{3cm}{3cm}{3cm}{3cm}
+%\usepackage{amsmath}
+%\usepackage{color}
+%\usepackage{listings}
+%\usepackage{enumerate}
+%\lstloadlanguages{Ada,C++}
+
+
+\begin{document}	
+	% \noindent -  w tym akapicie nie bedzie wciecia
+	% \ indent - to jest aut., ale powoduje ze jest wciecie
+	% \begin{flushleft}, flushright, center - wyrownianie akapitu
+	% \textbf{pogrubiany tekst}
+	% \textit{kursywa} 
+	% 					STRONY 
+	%  http://www.codecogs.com/latex/eqneditor.php 
+	%  http://www.matematyka.pl/latex.htm
+	% 
+	\begin{titlepage}
+		
+		
+		
+		\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+		
+		\center % Center everything on the page
+		
+		%----------------------------------------------------------------------------------------
+		%	HEADING SECTIONS
+		%----------------------------------------------------------------------------------------
+		
+		\textsc{\LARGE Akademia Górniczo-Hutnicza im. Stanisława Staszica}\\ % Name of your university/college
+		\textsc{\Large Wydział Elektrotechniki, Automatyki, Informatyki i Inżynierii Biomedycznej}\\[0.5cm] % Major heading such as course name
+		\textsc{\Large Kraków}\\[0.5cm] % Major heading such as course name
+		\hfill\includegraphics[scale=0.5]{logoAgh.jpg}\hspace*{\fill}
+		
+		\begin{center}
+				\begin{figure}[H]%[!htb]
+				%\includegraphics[scale=0.5]{logoAgh.jpg}
+				\end{figure}
+	    \end{center}
+		\textsc{\large Inżynieria Oprogramowania}\\%[0.5cm] 
+		\textsc{\large Informatyka, III rok}\\[0.5cm] % Minor heading such as course title
+		
+		%----------------------------------------------------------------------------------------
+		%	TITLE SECTION
+		%----------------------------------------------------------------------------------------
+		
+		\HRule \\[0.4cm]
+		{\fontsize{38}{50}\selectfont Hotel}
+		%	{ \Huge \bfseries} Osadnicy z Catan - Gra sieciowa\\[0.3cm] % Title of your document
+		\HRule \\[1.5cm]
+		
+		%----------------------------------------------------------------------------------------
+		%	AUTHOR SECTION
+		%----------------------------------------------------------------------------------------
+	
+		% If you don't want a supervisor, uncomment the two lines below and remove the section above
+		\Large \emph{Autorzy:}\\
+		Sebastian \textsc{Katszer}\\
+		Katarzyna \textsc{Kosiak}\\[1cm]\ % Your name
+			\Large \emph{Prowadzący:}\\
+			dr inż. Radosław \textsc{Klimek}\\[2cm]\ % Your name
+		
+		
+		%----------------------------------------------------------------------------------------
+		%	DATE SECTION
+		%----------------------------------------------------------------------------------------
+		
+		{\large \today}\\[3cm] % Date, change the \today to a set date if you want to be precise
+		
+		%----------------------------------------------------------------------------------------
+		%	LOGO SECTION
+		%----------------------------------------------------------------------------------------
+		
+		%\includegraphics{Logo}\\[1cm] % Include a department/university logo - this will require the graphicx package
+		
+		%----------------------------------------------------------------------------------------
+		
+		\vfill % Fill the rest of the page with whitespace
+		
+	\end{titlepage}
+	
+	%SPIS TRESI
+	%
+	%
+	%
+	%
+	%
+	%
+	%
+	%
+	%
+	
+	\tableofcontents
+	\vfill
+	\newpage	%\pagebreak
+	
+	%SEKCJE
+	%opis zagadnienia, temat, problem, dlaczego chcemy to rozwiązacyać metodą ewolucyjnę
+	%jakie są metody rozwiącania problemu, przegląd literatury,
+	%proponowane rozwiązania (spójność)
+	%czym się inspierowałyśmy
+	%
+	%
+	%
+	
+	%\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+	
+	%\section{Wstęp}
+	%\indent
+	
+	%Niniejszy dokument stanowi dokumentację projektu ``Hotel'' z przedmiotu Inżynieria Oprogramowania na trzecim roku kierunku Informatyka, na Wydziale Elektrotechniki, Automatyki, Informatyki i Inżynierii Biomedycznej.
+	
+	\section{Streszczenie systemu}
+		\indent
+		
+	
+	Projekt ten modeluje działanie niewielkiego hotelu.\\ \indent
+	Hotel ten dysponować będzie pokojami dwu-, trzy- i czteroosobowymi w ilości równiej pięć na każdy typ z możliwością ich rezerwacji na okres minimum doby (osobiście w recepcji, przez telefon lub poprzez stronę internetową). Dostępne są trzy opcje płatności: internetowa, gotówką lub kartą, przy czym rodzaj płatności trzeba podać podczas rezerwacji pokoju, a po jej dokonaniu otrzymuje się potwierdzenie dokonania wpłaty w wybranej formie: rachunek lub fakturę. \\ \indent
+	Oprócz procesu przygotowawczego pokoju przed przybyciem klienta, codziennie pokoje są sprzątane na prośbę klienta w godzinach 10:00-12:00.  \\ \indent
+	Klient może zamówić posiłki do pokoju, które przygotowywane są przez kucharza i dostarczane przez obsługę hotelową. Klient może zamówić budzenie i taksówkę przez recepcję.	 \\ \indent
+	Po spędzeniu w hotelu sumarycznie dwóch tygodni klient może ubiegać się o kartę stałego klienta uprawniającą do 15 \% zniżki.  \\ \indent
+	Niezbędne do funkcjonowania hotelu produkty zamawiane są przez kierownika w hurtowni. Reklama będzie realizowana przez wynajętą agencję. \\
+		
+	\section{Lista obiektów}	
+	
+	\begin{itemize}
+			\item Pracownicy hotelu:
+			
+			\begin{itemize}
+				\item Kierownik - prowadzi hotel, akceptuje i modyfikuje listę zamówień z hurtowni,
+				
+				\item Recepcjonista - obsługuje klientów przy rezerwacjach, daje i odbiera dostęp do pokoju klientom, informuje portiera o potrzebie przeniesienia bagaży, na prośbę klienta: budzi go o określonej godzinie, zamawia taksówkę,
+				
+				\item Pokojowy - przygotowuje pokój przed przybyciem klienta, na prośbę klienta, sprząta pokój, przynosi posiłki, uzupełnia listę zamówień o brakujące środki czystości,
+				
+				\item Portier - nosi bagaże klientów, udziela informacji klientom o topografii hotelu.
+				
+			\end{itemize}
+		
+		\item Pozostali:
+		
+		\begin{itemize}
+			\item Klient - osoba rezerwująca pokój i korzystająca z niego w określonym przez rezerwację czasie,
+			
+			\item Agencja księgowa - zajmuje się dokumentowaniem spraw finansowych hotelu zgodnie z obowiązującym prawem,
+			
+			\item Firma cateringowa - realizuje zamówienia klienta, które są przekazywane przez obsługę hotelową,
+			
+			\item Agencja reklamowa - firma, która zarządza kampanią reklamową hotelu,
+			\item Hurtownia - dostarcza produktu, które są potrzebne w hotelu,
+			
+			\item Strona internetowa - umożliwia rezerwację pokoju przez Internet.
+				\vfill	
+		\end{itemize}
+		
+		
+		
+		
+	\end{itemize}
+	
+	
+	\section{Lista zdarzeń}
+	
+	
+	\indent
+	\begin{itemize}
+		
+		\item Klient rejestruje swój pobyt
+		\item Klient przybywa i realizuje rezerwację
+		\item Klient zamawia sprzątanie pokoju, posiłek, budzenie lub taksówkę,
+		\item Klient zdaje pokój w recepcji
+		\item Klient dokonuje oceny świadczonych usług w recepcji
+		\item Klient dokonuje płatności: gotówką, kartą, internetowo
+		\item Hurtownia dostarcza zamówionych przez kierownika produktów
+		\item Agencja reklamowa dostarcza nam swoje usługi
+		\item Firma cateringowa wydaje polecone zamówienia
+		\item Agencja księgowa żąda przekazania dokumentów
+		\item Firma zewnętrzna żąda opłaty
+		\\
+	\end{itemize}
+	
+
+	
+	\section{Diagram kontekstowy}
+	\indent
+		\\
+	\begin{figure}[H]%[!htb]
+			\includegraphics[scale=0.8]{kontekstowy.png}\caption{Diagram kontekstowy}
+	\end{figure}
+
+
+	\vfill		
+	\section{Diagram DFT}
+	\indent
+	\subsection{poziom 0}
+	\indent
+	\begin{figure}[H]%[!htb]
+			\center
+			\includegraphics[scale=0.7]{DFDpoziom0.png}\caption{Diagram DFD - poziom 0.}
+	\end{figure}
+
+		
+	
+\end{document}
