@@ -1,0 +1,12 @@
+Because this ER tutorial focuses on beginners below are some tips that will help you build effective ER diagrams:
+
+Identify all the relevant entities in a given system and determine the relationships among these entities.
+
+An entity should appear only once in a particular diagram.
+
+Provide a precise and appropriate name for each entity, attribute, and relationship in the diagram. Terms that are simple and familiar always beats vague, technical-sounding words. In naming entities, remember to use singular nouns. However, adjectives may be used to distinguish entities belonging to the same class (part-time employee and full time employee, for example). Meanwhile attribute names must be meaningful, unique, system-independent, and easily understandable.
+
+Remove vague, redundant or unnecessary relationships between entities.
+Never connect a relationship to another relationship.
+
+Make effective use of colors. You can use colors to classify similar entities or to highlight key areas in your diagrams.
