@@ -309,9 +309,9 @@
 	
 	
 	\newpage
-	\section{PSPEC}
-	\subsection{SPIS}
-	\begin{enumerate}[label*=\arabic*.]
+	\section{Specyfikacja procesów PSPEC}
+	\subsection{Spis}
+		\begin{enumerate}[label*=\arabic*.]
 		\item Kontrola satysfakcji
 		\begin{enumerate}[label*=\arabic*.]
 			\item Analiza ankiety
@@ -389,5 +389,273 @@
 			\item Zbieranie potrzebnych dokumentów
 		\end{enumerate}	
 	\end{enumerate}
+
 	
+	
+
+
+	\subsection{Opis}
+	\begin{enumerate}[label*=\arabic*.]
+		\item Kontrola satysfakcji
+		\begin{enumerate}[label*=\arabic*.]
+			\item Analiza ankiety
+			\begin{enumerate}[label*=\arabic*.]
+				\item Sprawdzenie poprawności ankiety
+				\begin{description}
+					\item[Wejście:]	Wypełniona ankieta 
+					\item[Wyjście:]	Poprawna ankieta, Niepoprawna ankieta
+					\item[Działanie:]	Segreguje ankiety ze względu na poprawność ich wypełnienia
+				\end{description}				
+				\item Niszczenie ankiety
+				\begin{description}
+					\item[Wejście:] Niepoprawna ankieta
+					\item[Wyjście:] 
+					\item[Działanie:] Niszczenie i usuwanie niepoprawnych ankiet
+				\end{description}				
+				\item Konwersja danych do postaci elektronicznej
+				\begin{description}
+					\item[Wejście:] Poprawna ankieta
+					\item[Wyjście:] Elektroniczne wyniki ankiety
+					\item[Działanie:] Przełożenie pisemnej ankiety na strukturę danych informatycznych
+				\end{description}	
+			\end{enumerate}
+			\item Stworzenie raportu, diagramów
+			\begin{description}
+				\item[Wejście:] Ankiety w formie elektronicznej
+				\item[Wyjście:] Raport wraz z diagramami
+				\item[Działanie:] Analizowanie danych z ankiet i sporządzenie na ich podstawie wykresów, diagramów i wyciągnięcie wniosków w postaci sprawozdania.
+			\end{description}	
+		\end{enumerate}
+		\item Obsługa klienta
+		\begin{enumerate}[label*=\arabic*.]
+			\item Obsługa rezerwacji
+			\begin{enumerate}[label*=\arabic*.]
+				\item Wcielenie rezerwacji
+				\begin{description}
+					\item[Wejście:] Informacja o chęci rezerwacji, lista dostępnych pokoi, koszt noclegu
+					\item[Wyjście:] dostępność pokojów i ich cena, stan rezerwacji klienta, sygnał żądania pobrania informacji o pokojach.
+					\item[Działanie:] Przedstawienie w jasnej formie ofert pokoi i ich cen, zaakceptowanie wyboru i przesłanie dalej informacji do aktualizacji bazy danych.
+				\end{description}	
+				\item Zdobywanie potrzebnych informacji
+				\begin{description}
+					\item[Wejście:] Informacje o dostępnych pokojach, żądanie o te informacje
+					\item[Wyjście:] Informacje o dostępnych pokojach, żądanie o te informacje
+					\item[Działanie:] Element pośredni, który zdobywa i filtruje dane z bazy danych, a następnie je udziela w procesie rezerwacji.
+				\end{description}	
+			\end{enumerate}
+			\item Obsługa magazynu
+			\begin{enumerate}[label*=\arabic*.]
+				\item Przetworzenie danych
+				\begin{description}
+					\item[Wejście:] Żądanie o dostępności pokoi, zmieniony stan pokoju
+					\item[Wyjście:] Informacje o dostępnych pokojach
+					\item[Działanie:] Realizuje dostęp do bazy danych, udzielając informacji w odpowiedzi na ich żądanie.
+				\end{description}	
+				\item Przetworzenie informacji
+				\begin{description}
+					\item[Wejście:]
+					\item[Wyjście:]
+					\item[Działanie:]
+				\end{description}	
+				\item Sumowanie kosztów zamówień
+				\begin{description}
+					\item[Wejście:]
+					\item[Wyjście:]
+					\item[Działanie:]
+				\end{description}	
+				\item Przygotowanie posiłku
+				\begin{description}
+					\item[Wejście:]
+					\item[Wyjście:]
+					\item[Działanie:]
+				\end{description}	
+			\end{enumerate}						
+			\item Obsługa klienta meldującego się 
+			\begin{enumerate}[label*=\arabic*.]
+				\item Weryfikacja klienta
+				\begin{description}
+					\item[Wejście:]
+					\item[Wyjście:]
+					\item[Działanie:]
+				\end{description}	
+				\item Realizacja rezerwacji
+				\begin{description}
+					\item[Wejście:]
+					\item[Wyjście:]
+					\item[Działanie:]
+				\end{description}	
+				\item Powiadomienie klienta o stanie rezerwacji
+				\begin{description}
+					\item[Wejście:]
+					\item[Wyjście:]
+					\item[Działanie:]
+				\end{description}	
+			\end{enumerate}									
+			\item Obsługa klienta wychodzącego
+			\begin{enumerate}[label*=\arabic*.]
+				\item Realizacja zapłaty
+				\begin{enumerate}[label*=\arabic*.]
+					\item Wybór sposobu płatności
+					\begin{description}
+						\item Wejście: 
+						\item Wyjście:
+						\item Działanie: 
+					\end{description}
+					\item Uregulowanie kosztów
+					\begin{description}
+						\item Wejście: 
+						\item Wyjście:
+						\item Działanie: 
+					\end{description}					
+					\item Sporządzenie potwierdzenia
+					\begin{description}
+						\item Wejście: 
+						\item Wyjście:
+						\item Działanie: 
+					\end{description}
+					\item Zliczenie kosztów
+					\begin{description}
+						\item Wejście: 
+						\item Wyjście:
+						\item Działanie: 
+					\end{description}
+					\item Obciążenie konta
+					\begin{description}
+						\item Wejście: 
+						\item Wyjście:
+						\item Działanie: 
+					\end{description}
+				\end{enumerate}													
+				\item Składanie kluczy
+				\begin{description}
+					\item Wejście: 
+					\item Wyjście:
+					\item Działanie: 
+				\end{description}
+				\item Wystawianie rachunku
+				\begin{description}
+					\item Wejście: 
+					\item Wyjście:
+					\item Działanie: 
+				\end{description}
+				\item Zliczenie kosztów
+				\begin{description}
+					\item Wejście: 
+					\item Wyjście:
+					\item Działanie: 
+				\end{description}
+			\end{enumerate}						
+			\item Obsługa klienta przebywającego
+			\begin{enumerate}[label*=\arabic*.]
+				\item Rozdzielenie zamówień
+				\begin{description}
+					\item Wejście: 
+					\item Wyjście:
+					\item Działanie: 
+				\end{description}
+				\item Przeniesienie bagażu
+				\begin{description}
+					\item Wejście: 
+					\item Wyjście:
+					\item Działanie: 
+				\end{description}
+				\item Redakcja informacji o zamówieniach
+				\begin{description}
+					\item Wejście: 
+					\item Wyjście:
+					\item Działanie: 
+				\end{description}
+				\item Zamówienie taksówki
+				\begin{description}
+					\item Wejście: 
+					\item Wyjście:
+					\item Działanie: 
+				\end{description}
+				\item Zamówienie sprzątania
+				\begin{description}
+					\item Wejście: 
+					\item Wyjście:
+					\item Działanie: 
+				\end{description}
+				\item Zamówienie posiłku
+				\begin{description}
+					\item Wejście: 
+					\item Wyjście:
+					\item Działanie: 
+				\end{description}
+				\item Obsługa magazynu
+				\begin{description}
+					\item Wejście: 
+					\item Wyjście:
+					\item Działanie: 
+				\end{description}
+			\end{enumerate}						
+		\end{enumerate}
+		\item Marketing hotelu
+		\begin{enumerate}[label*=\arabic*.]
+			\item Zarządzanie marketingiem
+			\begin{enumerate}[label*=\arabic*.]
+				\item Cykliczne wysyłanie zleceń
+				\begin{description}
+					\item Wejście: 
+					\item Wyjście:
+					\item Działanie: 
+				\end{description}
+				\item Analiza raportów
+				\begin{description}
+					\item Wejście: 
+					\item Wyjście:
+					\item Działanie: 
+				\end{description}
+			\end{enumerate}	
+			\item Tworzenie raportu
+		\end{enumerate}		
+		\item Kontrola magazynu
+		\begin{enumerate}[label*=\arabic*.]
+			\item Rozdzielenie listy potrzeb
+			\begin{description}
+				\item Wejście: 
+				\item Wyjście:
+				\item Działanie: 
+			\end{description}
+			\item Organizacja produktów z Hurtowni			
+			\begin{description}
+				\item Wejście: 
+				\item Wyjście:
+				\item Działanie: 
+			\end{description}
+			\item Organizacja produktów spożywczych
+			\begin{description}
+				\item Wejście: 
+				\item Wyjście:
+				\item Działanie: 
+			\end{description}
+		\end{enumerate}	
+		\item Księgowość
+		\begin{enumerate}[label*=\arabic*.]
+			\item Ustalenie priorytetów
+			\begin{description}
+				\item Wejście: 
+				\item Wyjście:
+				\item Działanie: 
+			\end{description}
+			\item Tworzenie raportów
+			\begin{description}
+				\item Wejście: 
+				\item Wyjście:
+				\item Działanie: 
+			\end{description}
+			\item Zbieranie potrzebnych dokumentów			
+			\begin{description}
+				\item Wejście: 
+				\item Wyjście:
+				\item Działanie: 
+			\end{description}
+		\end{enumerate}	
+	\end{enumerate}
+	
+	
+	
+	
+		
 \end{document}
