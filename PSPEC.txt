@@ -1,0 +1,56 @@
+SPIS
+1. Kontrola satysfakcji
+1.1. Analiza ankiety
+1.1.1. Sprawdzenie poprawnoœci ankiety
+1.1.2. Niszczenie ankiety
+1.1.3. Konwersja danych do postacji elektronicznej
+1.2 Stworzenie raportu, diagramów
+
+2. Obs³uga klienta
+2.1. Obs³uga rezerwacji
+2.1.1. Wcielenie rezerwacji
+2.1.2. Zdobywanie potrzebnych informacji
+2.2.Obs³uga magazynu
+2.2.1. Przetworzenie danych
+2.2.2. Przetworzneie informacji
+2.2.3. Sumowanie kosztów zamówieñ
+2.2.4. Przygotowanie posi³ku
+2.3. Obs³uga klienta melduj¹cego siê 
+2.3.1. Weryfikacja klienta
+2.3.2. Realizacja rezerwacji
+2.3.3. Powiadomienie klienta o stanie rezerwacji
+2.4. Obs³uga klienta wychodz¹cego
+2.4.1. Realizacja zap³aty
+2.4.1.1. Wybór sposobu p³atnoœci
+2.4.1.2. Uregulowanie kosztów
+2.4.1.3. Sporz¹dzenie potwierdzenia
+2.4.1.4. Zliczenie kosztów
+2.4.1.5. Obci¹¿enie konta
+2.4.2. Sk³adanie kluczy
+2.4.3. Wystawianie rachunku
+2.4.4. Zliczenie kosztów
+2.5. Obs³uga klienta przebywaj¹cego
+2.5.1. Rozdzielenie zamówieñ
+2.5.2. Przeniesienie baga¿u
+2.5.3. Redakcja informacji o zamówieniach
+2.5.4. Zamówienie taksówki
+2.5.5. Zamówienie sprz¹tania
+2.5.6. Zamówienie posi³ku
+2.5.7. Obs³uga magazynu
+
+3. Marketing hotelu
+3.1. Zarz¹dzanie marketingiem
+3.1.1. Cykliczne wysy³anie zleceñ
+3.1.2. Analiza raportów
+3.2. Tworzenie raportu
+
+4. Kontrola magazynu
+4.1. Rozdzielenie listy potrzeb
+4.2. Organizacja produktów z Hurtowni 
+4.3. Organizacja produktów spo¿ywczych
+
+5. Ksiêgowoœæ
+5.1. Ustalenie priorytetów
+5.2. Tworzenie raportów
+5.3. Zbieranie potrzebnych dokumentów
+
