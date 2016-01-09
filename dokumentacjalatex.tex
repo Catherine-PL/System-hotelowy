@@ -20,6 +20,8 @@
 %\usepackage{listings}
 %\usepackage{enumerate}
 %\lstloadlanguages{Ada,C++}
+\usepackage{enumitem}
+
 
 
 \begin{document}	
@@ -205,7 +207,7 @@
 
 
 	\vfill		
-	\section{Diagram DFT}
+	\section{Diagramy DFD}
 	\indent
 	\subsection{poziom 0}
 	\indent
@@ -214,6 +216,178 @@
 			\includegraphics[scale=0.7]{Img/DFDpoziom0.png}\caption{Diagram DFD - poziom 0.}
 	\end{figure}
 
+	
+	\subsection{poziom 1}
+	\indent
+	\begin{figure}[H]%[!htb]
+			\center
+			\includegraphics[scale=0.7]{Img/DFDpoziom0.png}
+			\caption{Diagram DFD - proces 1.}
+	\end{figure}	
+	\begin{figure}[H]%[!htb]
+			\center
+			\includegraphics[scale=0.7]{Img/DFDpoziom0.png}
+			\caption{Diagram DFD - proces 2.}
+	\end{figure}
+	\begin{figure}[H]%[!htb]
+			\center
+			\includegraphics[scale=0.7]{Img/DFDpoziom0.png}
+			\caption{Diagram DFD - proces 3.}
+	\end{figure}
+	\begin{figure}[H]%[!htb]
+			\center
+			\includegraphics[scale=0.7]{Img/DFDpoziom0.png}
+			\caption{Diagram DFD - proces 4.}
+	\end{figure}
+	\begin{figure}[H]%[!htb]
+			\center
+			\includegraphics[scale=0.7]{Img/DFDpoziom0.png}
+			\caption{Diagram DFD - proces 5.}
+	\end{figure}
+
+
+	\subsection{poziom 2}
+	\indent
+	\begin{figure}[H]%[!htb]
+			\center
+			\includegraphics[scale=0.7]{Img/DFDpoziom0.png}
+			\caption{Diagram DFD - proces 1.1}
+	\end{figure}
+
+	\begin{figure}[H]%[!htb]
+			\center
+			\includegraphics[scale=0.7]{Img/DFDpoziom0.png}
+			\caption{Diagram DFD - proces 2.1}
+	\end{figure}
+	\begin{figure}[H]%[!htb]
+			\center
+			\includegraphics[scale=0.7]{Img/DFDpoziom0.png}
+			\caption{Diagram DFD - proces 2.2}
+	\end{figure}
+	\begin{figure}[H]%[!htb]
+			\center
+			\includegraphics[scale=0.7]{Img/DFDpoziom0.png}
+			\caption{Diagram DFD - proces 2.3}
+	\end{figure}
+	\begin{figure}[H]%[!htb]
+			\center
+			\includegraphics[scale=0.7]{Img/DFDpoziom0.png}
+			\caption{Diagram DFD - proces 2.4}
+	\end{figure}	
+	\begin{figure}[H]%[!htb]
+			\center
+			\includegraphics[scale=0.7]{Img/DFDpoziom0.png}
+			\caption{Diagram DFD - proces 2.5}
+	\end{figure}
+	\begin{figure}[H]%[!htb]
+			\center
+			\includegraphics[scale=0.7]{Img/DFDpoziom0.png}
+			\caption{Diagram DFD - proces 3.1}
+	\end{figure}
+	
 		
+	\subsection{poziom 3}
+	\indent
+	\begin{figure}[H]%[!htb]
+			\center
+			\includegraphics[scale=0.7]{Img/DFDpoziom0.png}
+			\caption{Diagram DFD - proces 2.4.1}
+	\end{figure}		
+	
+	
+	
+	
+	
+	\section{Diagram ERD}
+	\indent
+	\begin{figure}[H]%[!htb]
+			\includegraphics[scale=0.8]{Img/kontekstowy.png}
+			\caption{Diagram kontekstowy}
+	\end{figure}
+	
+	
+	
+	
+	\newpage
+	\section{PSPEC}
+	\subsection{SPIS}
+	\begin{enumerate}[label*=\arabic*.]
+		\item Kontrola satysfakcji
+		\begin{enumerate}[label*=\arabic*.]
+			\item Analiza ankiety
+			\begin{enumerate}[label*=\arabic*.]
+				\item Sprawdzenie poprawności ankiety
+				\item Niszczenie ankiety
+				\item Konwersja danych do postaci elektronicznej
+			\end{enumerate}
+			\item Stworzenie raportu, diagramów
+		\end{enumerate}
+		\item Obsługa klienta
+		\begin{enumerate}[label*=\arabic*.]
+			\item Obsługa rezerwacji
+			\begin{enumerate}[label*=\arabic*.]
+				\item Wcielenie rezerwacji
+				\item Zdobywanie potrzebnych informacji
+			\end{enumerate}
+			\item Obsługa magazynu
+			\begin{enumerate}[label*=\arabic*.]
+				\item Przetworzenie danych
+				\item Przetworzenie informacji
+				\item Sumowanie kosztów zamówień
+				\item Przygotowanie posiłku
+			\end{enumerate}						
+			\item Obsługa klienta meldującego się 
+			\begin{enumerate}[label*=\arabic*.]
+				\item Weryfikacja klienta
+				\item Realizacja rezerwacji
+				\item Powiadomienie klienta o stanie rezerwacji
+			\end{enumerate}									
+			\item Obsługa klienta wychodzącego
+			\begin{enumerate}[label*=\arabic*.]
+				\item Realizacja zapłaty
+				\begin{enumerate}[label*=\arabic*.]
+					\item Wybór sposobu płatności
+					\item Uregulowanie kosztów
+					\item Sporządzenie potwierdzenia
+					\item Zliczenie kosztów
+					\item Obciążenie konta
+				\end{enumerate}													
+				\item Składanie kluczy
+				\item Wystawianie rachunku
+				\item Zliczenie kosztów
+			\end{enumerate}						
+			\item Obsługa klienta przebywającego
+			\begin{enumerate}[label*=\arabic*.]
+				\item Rozdzielenie zamówień
+				\item Przeniesienie bagażu
+				\item Redakcja informacji o zamówieniach
+				\item Zamówienie taksówki
+				\item Zamówienie sprzątania
+				\item Zamówienie posiłku
+				\item Obsługa magazynu
+			\end{enumerate}						
+		\end{enumerate}
+		\item Marketing hotelu
+		\begin{enumerate}[label*=\arabic*.]
+			\item Zarządzanie marketingiem
+			\begin{enumerate}[label*=\arabic*.]
+				\item Cykliczne wysyłanie zleceń
+				\item Analiza raportów
+			\end{enumerate}	
+			\item Tworzenie raportu
+		\end{enumerate}		
+		\item Kontrola magazynu
+		\begin{enumerate}[label*=\arabic*.]
+			\item Rozdzielenie listy potrzeb
+			\item Organizacja produktów z Hurtowni
+			\item Organizacja produktów spożywczych
+		\end{enumerate}	
+		\item Księgowość
+		\begin{enumerate}[label*=\arabic*.]
+			\item Ustalenie priorytetów
+			\item Tworzenie raportów
+			\item Zbieranie potrzebnych dokumentów
+		\end{enumerate}	
+	\end{enumerate}
 	
 \end{document}

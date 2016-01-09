@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.26)  9 DEC 2015 12:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.26)  9 JAN 2016 22:55
 entering extended mode
 **dokumentacjalatex.tex
 (dokumentacjalatex.tex
@@ -417,44 +417,52 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \sift@deathcycles=\count93
 \@vwid@loff=\dimen124
 \@vwid@roff=\dimen125
-)) (dokumentacjalatex.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+))
+(D:\MiKTeX\tex\latex\enumitem\enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip43
+\enit@outerparindent=\dimen126
+\enit@toks=\toks22
+\enit@inbox=\box31
+\enitdp@description=\count94
+) (dokumentacjalatex.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 (D:\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count94
-\scratchdimen=\dimen126
-\scratchbox=\box31
-\nofMPsegments=\count95
-\nofMParguments=\count96
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count97
-\MPscratchDim=\dimen127
-\MPnumerator=\count98
-\makeMPintoPDFobject=\count99
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count95
+\scratchdimen=\dimen127
+\scratchbox=\box32
+\nofMPsegments=\count96
+\nofMParguments=\count97
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count98
+\MPscratchDim=\dimen128
+\MPnumerator=\count99
+\makeMPintoPDFobject=\count100
+\everyMPtoPDFconversion=\toks24
 ) <Img/logoAgh.jpg, id=1, 146.4672pt x 284.7438pt>
 File: Img/logoAgh.jpg Graphic file (type jpg)
  <use Img/logoAgh.jpg>
-Package pdftex.def Info: Img/logoAgh.jpg used on input line 50.
+Package pdftex.def Info: Img/logoAgh.jpg used on input line 52.
 (pdftex.def)             Requested size: 73.23341pt x 142.37155pt.
 
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <38> not available
-(Font)              size <35.83> substituted on input line 65.
+(Font)              size <35.83> substituted on input line 67.
 
 [1
 
@@ -482,19 +490,19 @@ LaTeX Font Info:    External font `plex10' loaded for size
 )
 \tf@toc=\write3
  [1]
-Underfull \hbox (badness 10000) in paragraph at lines 134--140
+Underfull \hbox (badness 10000) in paragraph at lines 136--142
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 144.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 146.
 
 (D:\MiKTeX\tex\latex\base\omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 144.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 146.
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 193--195
+Underfull \hbox (badness 10000) in paragraph at lines 195--197
 
  []
 
@@ -502,15 +510,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 193--195
 File: Img/kontekstowy.png Graphic file (type png)
 
 <use Img/kontekstowy.png>
-Package pdftex.def Info: Img/kontekstowy.png used on input line 203.
+Package pdftex.def Info: Img/kontekstowy.png used on input line 205.
 (pdftex.def)             Requested size: 470.96013pt x 292.09163pt.
 
-Overfull \hbox (15.71602pt too wide) in paragraph at lines 203--203
+Overfull \hbox (15.71602pt too wide) in paragraph at lines 205--205
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--204
+Underfull \hbox (badness 10000) in paragraph at lines 202--206
 
  []
 
@@ -519,22 +527,100 @@ Underfull \hbox (badness 10000) in paragraph at lines 200--204
 File: Img/DFDpoziom0.png Graphic file (type png)
 
 <use Img/DFDpoziom0.png>
-Package pdftex.def Info: Img/DFDpoziom0.png used on input line 214.
+Package pdftex.def Info: Img/DFDpoziom0.png used on input line 216.
 (pdftex.def)             Requested size: 277.18367pt x 536.9775pt.
- [4 <./Img/DFDpoziom0.png>] (dokumentacjalatex.aux)
+File: Img/DFDpoziom0.png Graphic file (type png)
+ <use Img/DFDpoziom0.png>
+Package pdftex.def Info: Img/DFDpoziom0.png used on input line 224.
+(pdftex.def)             Requested size: 277.18367pt x 536.9775pt.
+File: Img/DFDpoziom0.png Graphic file (type png)
+ <use Img/DFDpoziom0.png>
+Package pdftex.def Info: Img/DFDpoziom0.png used on input line 229.
+(pdftex.def)             Requested size: 277.18367pt x 536.9775pt.
+
+[4 <./Img/DFDpoziom0.png>]
+File: Img/DFDpoziom0.png Graphic file (type png)
+ <use Img/DFDpoziom0.png>
+Package pdftex.def Info: Img/DFDpoziom0.png used on input line 234.
+(pdftex.def)             Requested size: 277.18367pt x 536.9775pt.
+ [5]
+File: Img/DFDpoziom0.png Graphic file (type png)
+
+<use Img/DFDpoziom0.png>
+Package pdftex.def Info: Img/DFDpoziom0.png used on input line 239.
+(pdftex.def)             Requested size: 277.18367pt x 536.9775pt.
+ [6]
+File: Img/DFDpoziom0.png Graphic file (type png)
+ <use Img/DFDpoziom0.png>
+Package pdftex.def Info: Img/DFDpoziom0.png used on input line 244.
+(pdftex.def)             Requested size: 277.18367pt x 536.9775pt.
+ [7] [8]
+File: Img/DFDpoziom0.png Graphic file (type png)
+
+<use Img/DFDpoziom0.png>
+Package pdftex.def Info: Img/DFDpoziom0.png used on input line 253.
+(pdftex.def)             Requested size: 277.18367pt x 536.9775pt.
+ [9]
+File: Img/DFDpoziom0.png Graphic file (type png)
+ <use Img/DFDpoziom0.png>
+Package pdftex.def Info: Img/DFDpoziom0.png used on input line 259.
+(pdftex.def)             Requested size: 277.18367pt x 536.9775pt.
+File: Img/DFDpoziom0.png Graphic file (type png)
+ <use Img/DFDpoziom0.png>
+Package pdftex.def Info: Img/DFDpoziom0.png used on input line 264.
+(pdftex.def)             Requested size: 277.18367pt x 536.9775pt.
+
+[10]
+File: Img/DFDpoziom0.png Graphic file (type png)
+ <use Img/DFDpoziom0.png>
+Package pdftex.def Info: Img/DFDpoziom0.png used on input line 269.
+(pdftex.def)             Requested size: 277.18367pt x 536.9775pt.
+ [11]
+File: Img/DFDpoziom0.png Graphic file (type png)
+ <use Img/DFDpoziom0.png>
+Package pdftex.def Info: Img/DFDpoziom0.png used on input line 274.
+(pdftex.def)             Requested size: 277.18367pt x 536.9775pt.
+ [12]
+File: Img/DFDpoziom0.png Graphic file (type png)
+
+<use Img/DFDpoziom0.png>
+Package pdftex.def Info: Img/DFDpoziom0.png used on input line 279.
+(pdftex.def)             Requested size: 277.18367pt x 536.9775pt.
+ [13]
+File: Img/DFDpoziom0.png Graphic file (type png)
+ <use Img/DFDpoziom0.png>
+Package pdftex.def Info: Img/DFDpoziom0.png used on input line 284.
+(pdftex.def)             Requested size: 277.18367pt x 536.9775pt.
+ [14] [15]
+File: Img/DFDpoziom0.png Graphic file (type png)
+
+<use Img/DFDpoziom0.png>
+Package pdftex.def Info: Img/DFDpoziom0.png used on input line 293.
+(pdftex.def)             Requested size: 277.18367pt x 536.9775pt.
+ [16]
+File: Img/kontekstowy.png Graphic file (type png)
+ <use Img/kontekstowy.png>
+Package pdftex.def Info: Img/kontekstowy.png used on input line 304.
+(pdftex.def)             Requested size: 470.96013pt x 292.09163pt.
+
+Overfull \hbox (15.71602pt too wide) in paragraph at lines 304--305
+[][] 
+ []
+
+[17] [18] [19] [20] (dokumentacjalatex.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.17pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 3177 strings out of 493673
- 39804 string characters out of 3151263
- 105951 words of memory out of 3000000
- 6445 multiletter control sequences out of 15000+200000
+ 3467 strings out of 493673
+ 44616 string characters out of 3151263
+ 113122 words of memory out of 3000000
+ 6731 multiletter control sequences out of 15000+200000
  16680 words of font info for 38 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 28i,7n,32p,530b,305s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,7n,32p,530b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Sebastian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi
 600\ecbx1200.pk> <C:\Users\Sebastian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
 knappen\ec\dpi600\ecrm1095.pk> <C:\Users\Sebastian\AppData\Local\MiKTeX\2.9\fon
@@ -549,9 +635,9 @@ our\jknappen\ec\dpi600\ecrm3583.pk> <C:\Users\Sebastian\AppData\Local\MiKTeX\2.
 ocal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1440.pk> <C:\Users\Sebas
 tian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728.pk><D
 :/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on dokumentacjalatex.pdf (5 pages, 269691 bytes).
+Output written on dokumentacjalatex.pdf (21 pages, 291323 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
+ 400 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
