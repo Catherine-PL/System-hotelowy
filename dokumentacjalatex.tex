@@ -404,26 +404,26 @@
 				\begin{description}
 					\item[Wejście:]	Wypełniona ankieta 
 					\item[Wyjście:]	Poprawna ankieta, Niepoprawna ankieta
-					\item[Działanie:]	Segreguje ankiety ze względu na poprawność ich wypełnienia
+					\item[Działanie:] Wypełnioną ankietę segreguje względem poprawności.
 				\end{description}				
 				\item Niszczenie ankiety
 				\begin{description}
 					\item[Wejście:] Niepoprawna ankieta
 					\item[Wyjście:] 
-					\item[Działanie:] Niszczenie i usuwanie niepoprawnych ankiet
+					\item[Działanie:] Wrzucenie ankiety do niszczarki, wyrzucenie śmieci.
 				\end{description}				
 				\item Konwersja danych do postaci elektronicznej
 				\begin{description}
 					\item[Wejście:] Poprawna ankieta
 					\item[Wyjście:] Elektroniczne wyniki ankiety
-					\item[Działanie:] Przełożenie pisemnej ankiety na strukturę danych informatycznych
+					\item[Działanie:] Przepisanie krok po kroku wszystkich pól z ankiety do systemu informatycznego i zapisanie wyników.
 				\end{description}	
 			\end{enumerate}
 			\item Stworzenie raportu, diagramów
 			\begin{description}
 				\item[Wejście:] Ankiety w formie elektronicznej
 				\item[Wyjście:] Raport wraz z diagramami
-				\item[Działanie:] Analizowanie danych z ankiet i sporządzenie na ich podstawie wykresów, diagramów i wyciągnięcie wniosków w postaci sprawozdania.
+				\item[Działanie:] Wpierw sporządzenie na podstawie ankiet wykresów statystycznych zadowoleń. Następnie ich analiza i wyciągnięcie wniosków w postaci sprawozdania wraz z diagramami.
 			\end{description}	
 		\end{enumerate}
 		\item Obsługa klienta
@@ -434,59 +434,59 @@
 				\begin{description}
 					\item[Wejście:] Informacja o chęci rezerwacji, lista dostępnych pokoi, koszt noclegu
 					\item[Wyjście:] dostępność pokojów i ich cena, stan rezerwacji klienta, sygnał żądania pobrania informacji o pokojach.
-					\item[Działanie:] Przedstawienie w jasnej formie ofert pokoi i ich cen, zaakceptowanie wyboru i przesłanie dalej informacji do aktualizacji bazy danych.
+					\item[Działanie:] Przedstawienie w jasnej formie ofert pokoi i ich cen. Następnie zaakceptowanie wyboru klienta i przesłanie dalej informacji do aktualizacji bazy danych.
 				\end{description}	
 				\item Zdobywanie potrzebnych informacji
 				\begin{description}
 					\item[Wejście:] Informacje o dostępnych pokojach, żądanie o te informacje
 					\item[Wyjście:] Informacje o dostępnych pokojach, żądanie o te informacje
-					\item[Działanie:] Element pośredni, który zdobywa i filtruje dane z bazy danych, a następnie je udziela w procesie rezerwacji.
+					\item[Działanie:] Na żądanie informacji o dostępach pokoi, wysyła o nie zapytania do obsługi bazy danych, a jak już je uzyska, filtruje pokoje zajęte i przekazuje podmiotom zainteresowanym.
 				\end{description}	
 			\end{enumerate}
 			\item Obsługa magazynu
 			\begin{enumerate}[label*=\arabic*.]
 				\item Przetworzenie danych
 				\begin{description}
-					\item[Wejście:] Żądanie o dostępności pokoi, zmieniony stan pokoju
+					\item[Wejście:] Żądanie informacji o rezerwacji, zmieniony stan rezerwacji
 					\item[Wyjście:] Informacje o dostępnych pokojach
-					\item[Działanie:] Realizuje dostęp do bazy danych, udzielając informacji w odpowiedzi na ich żądanie.
+					\item[Działanie:] Na żądanie, pobiera informacje z bazy danych na temat rezerwacji. Następnie przetwarza je, do czytelniejszej postaci i odsyła zainteresowanemu podmiotowi. W przypadku otrzymania stanu rezerwacji, przekłada go na  system informatyczny i zapisuje dane.
 				\end{description}	
 				\item Przetworzenie informacji
 				\begin{description}
-					\item[Wejście:]
-					\item[Wyjście:]
-					\item[Działanie:]
+					\item[Wejście:] Żądanie o dostępności pokoi
+					\item[Wyjście:] Graficzna forma informacji o dostępnych pokoi
+					\item[Działanie:] Na żądanie, pobiera informacje z bazy danych na temat dostępności pokoi. Następnie przetwarza je, do graficznej postaci i odsyła zainteresowanemu podmiotowi.
 				\end{description}	
 				\item Sumowanie kosztów zamówień
 				\begin{description}
-					\item[Wejście:]
-					\item[Wyjście:]
-					\item[Działanie:]
+					\item[Wejście:] Koszty zamówień klienta, żądanie całkowitego kosztu
+					\item[Wyjście:] Całkowity koszt klienta
+					\item[Działanie:] Na żądanie, pobiera informacje z bazy danych na temat wszystkich usług i kosztów klienta. Następnie je sumuje i po przełożeniu do czytelniejszej formy, odsyła zainteresowanemu podmiotowi.
 				\end{description}	
 				\item Przygotowanie posiłku
 				\begin{description}
-					\item[Wejście:]
-					\item[Wyjście:]
-					\item[Działanie:]
+					\item[Wejście:] nazwa posiłku
+					\item[Wyjście:] posiłek
+					\item[Działanie:] Na podstawie nazwy posiłku, pobiera składniki z magazynu produktów spożywczych, przygotowuje z nich zestaw, cały posiłek i wydaje dalej zainteresowanemu podmiotowi.
 				\end{description}	
 			\end{enumerate}						
 			\item Obsługa klienta meldującego się 
 			\begin{enumerate}[label*=\arabic*.]
 				\item Weryfikacja klienta
 				\begin{description}
-					\item[Wejście:]
-					\item[Wyjście:]
-					\item[Działanie:]
+					\item[Wejście:] Dane klienta
+					\item[Wyjście:] Żądanie informacji dot. rezerwacji
+					\item[Działanie:] Analizowanie danych osobowych klienta i sformułowanie poprawnego żądanie.
 				\end{description}	
 				\item Realizacja rezerwacji
 				\begin{description}
-					\item[Wejście:]
-					\item[Wyjście:]
-					\item[Działanie:]
+					\item[Wejście:] Potwierdzenie istnienia rezerwacji, klucze
+					\item[Wyjście:] Klucze, Stan rezerwacji
+					\item[Działanie:] Na podstawie pozytywnej informacji o rezerwacji, dokonuje zmiany stanu rezerwacji na zrealizowana i stan ten propagowany jest dalej. Pobiera odpowiednie klucze z magazynu i udostępnia je klientowi.
 				\end{description}	
 				\item Powiadomienie klienta o stanie rezerwacji
 				\begin{description}
-					\item[Wejście:]
+					\item[Wejście:] Stan rezerwacji
 					\item[Wyjście:]
 					\item[Działanie:]
 				\end{description}	
