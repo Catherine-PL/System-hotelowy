@@ -1,13 +1,22 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.26)  10 JAN 2016 03:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.24)  10 JAN 2016 13:47
 entering extended mode
 **dokumentacjalatex.tex
-(dokumentacjalatex.tex
-LaTeX2e <2015/01/01> patch level 2
-Babel <3.9m> and hyphenation patterns for 69 languages loaded.
-(D:\MiKTeX\tex\latex\base\article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(D:\MiKTeX\tex\latex\base\size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+("D:\Biblioteka\Studia\V semestr\IO\System-hotelowy\dokumentacjalatex.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -20,20 +29,21 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (D:\MiKTeX\tex\generic\babel\babel.sty
-Package: babel 2015/08/03 3.9m The Babel package
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(D:\MiKTeX\tex\latex\00miktex\bblopts.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-(D:\MiKTeX\tex\latex\babel-polish\polish.ldf
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\polish.ldf"
 Language: polish 2005/03/31 v1.2l Polish support from the babel system
 
-(D:\MiKTeX\tex\generic\babel\babel.def
-File: babel.def 2015/08/03 3.9m Babel common definitions
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
@@ -43,18 +53,19 @@ Package babel Info: Making " an active character on input line 83.
 \pl@right=\dimen106
 \pl@temp=\dimen107
 ))
-(D:\MiKTeX\tex\latex\polski\polski.sty
+(C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\polski.sty
 Package: polski 2008/02/24 v1.3.3 Polish language package
 
 Document language package `polski' v1.3.3 <2008/02/24>
-\l@nohyphenation=\language70
+\l@nohyphenation=\language69
    Switching to Polish text encoding and Polish maths fonts.
-(D:\MiKTeX\tex\latex\base\ot4enc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot4enc.def"
 File: ot4enc.def 2005/09/27 v1.99g Standard LaTeX file
 )
 LaTeX Font Info:    Try loading font information for OT4+cmr on input line 346.
 
- (D:\MiKTeX\tex\latex\polski\ot4cmr.fd
+
+(C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\ot4cmr.fd
 File: ot4cmr.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
@@ -89,19 +100,20 @@ LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> OMS/plsy/b/n on input line 346.
 )
-(D:\MiKTeX\tex\latex\base\inputenc.sty
-Package: inputenc 2015/03/17 v1.2c Input encoding file
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
- (D:\MiKTeX\tex\latex\base\utf8.def
-File: utf8.def 2015/06/27 v1.1n UTF-8 support for inputenc
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(D:\MiKTeX\tex\latex\base\t1enc.dfu
-File: t1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
@@ -249,8 +261,9 @@ File: t1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
- (D:\MiKTeX\tex\latex\base\ot1enc.dfu
-File: ot1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00B8 (decimal 184)
@@ -280,8 +293,8 @@ File: ot1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(D:\MiKTeX\tex\latex\base\omsenc.dfu
-File: omsenc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -305,38 +318,39 @@ Now handling font encoding OT4 ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-)) (D:\MiKTeX\tex\latex\base\fontenc.sty
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(D:\MiKTeX\tex\latex\base\t1enc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(D:\MiKTeX\tex\latex\graphics\graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(D:\MiKTeX\tex\latex\graphics\keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(D:\MiKTeX\tex\latex\graphics\graphics.sty
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(D:\MiKTeX\tex\latex\graphics\trig.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(D:\MiKTeX\tex\latex\00miktex\graphics.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(D:\MiKTeX\tex\latex\pdftex-def\pdftex.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(D:\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(D:\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count88
@@ -344,7 +358,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen108
 \Gin@req@width=\dimen109
 )
-(D:\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+(C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
 \wrapoverhang=\dimen110
 \WF@size=\dimen111
 \c@WF@wrappedlines=\count89
@@ -352,7 +366,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \WF@everypar=\toks17
 Package: wrapfig 2003/01/31  v 3.6
 )
-(D:\MiKTeX\tex\latex\ltxmisc\anysize.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\anysize.sty"
 Package: anysize 1994/08/13 1.0 Contributed LaTeX2e package
 
 Package: `anysize' 1.0 <1994/08/13>
@@ -360,7 +374,7 @@ Package: `anysize' 1.0 <1994/08/13>
 \@Rightmargin=\dimen113
 \@Topmargin=\dimen114
 \@Bottommargin=\dimen115
-) (D:\MiKTeX\tex\latex\float\float.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count90
 \float@exts=\toks18
@@ -368,28 +382,26 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks19
 \@floatcapt=\box28
 )
-(D:\MiKTeX\tex\latex\adjustbox\adjustbox.sty
+(C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\adjustbox.sty
 Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
 
-(D:\MiKTeX\tex\latex\xkeyval\xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 
-(D:\MiKTeX\tex\generic\xkeyval\xkeyval.tex
-(D:\MiKTeX\tex\generic\xkeyval\xkvutils.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
 \XKV@toks=\toks20
 \XKV@tempa@toks=\toks21
-)
 \XKV@depth=\count91
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 ))
-(D:\MiKTeX\tex\latex\adjustbox\adjcalc.sty
+(C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-(D:\MiKTeX\tex\latex\adjustbox\trimclip.sty
+(C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\trimclip.sty
 Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
 
-(D:\MiKTeX\tex\latex\collectbox\collectbox.sty
+(C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\collectbox\collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box29
 )
@@ -399,7 +411,7 @@ Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \tc@ury=\dimen119
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-(D:\MiKTeX\tex\latex\adjustbox\tc-pdftex.def
+(C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\tc-pdftex.def
 File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen120
@@ -407,25 +419,26 @@ File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 \adjbox@Depth=\dimen122
 \adjbox@Totalheight=\dimen123
 
-(D:\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+(C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\ifoddpage\ifoddpage.sty
 Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
 \c@checkoddpage=\count92
 )
-(D:\MiKTeX\tex\latex\ltxmisc\varwidth.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box30
 \sift@deathcycles=\count93
 \@vwid@loff=\dimen124
 \@vwid@roff=\dimen125
 ))
-(D:\MiKTeX\tex\latex\enumitem\enumitem.sty
+(C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip43
 \enit@outerparindent=\dimen126
 \enit@toks=\toks22
 \enit@inbox=\box31
 \enitdp@description=\count94
-) (dokumentacjalatex.aux)
+)
+("D:\Biblioteka\Studia\V semestr\IO\System-hotelowy\dokumentacjalatex.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
@@ -441,7 +454,7 @@ LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 
-(D:\MiKTeX\tex\context\base\supp-pdf.mkii
+(C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count95
 \scratchdimen=\dimen127
@@ -466,19 +479,22 @@ LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <38> not available
 
 [1
 
-{C:/Users/Sebastian/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Img/l
-ogoAgh.jpg>] (dokumentacjalatex.toc
+{C:/Users/USER/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <D:/Bibliotek
+a/Studia/V semestr/IO/System-hotelowy/Img/logoAgh.jpg>]
+("D:\Biblioteka\Studia\V semestr\IO\System-hotelowy\dokumentacjalatex.toc"
 LaTeX Font Info:    Try loading font information for OML+plm on input line 7.
- (D:\MiKTeX\tex\latex\polski\omlplm.fd
+
+(C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Try loading font information for OMS+plsy on input line 7.
 
-(D:\MiKTeX\tex\latex\polski\omsplsy.fd
+(C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Try loading font information for OMX+plex on input line 7.
- (D:\MiKTeX\tex\latex\polski\omxplex.fd
+
+(C:\Users\USER\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
@@ -489,15 +505,16 @@ LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <6> on input line 7.
 )
 \tf@toc=\write3
- [1]
+
+[1]
 Underfull \hbox (badness 10000) in paragraph at lines 136--142
 
  []
 
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 146.
 
-(D:\MiKTeX\tex\latex\base\omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 146.
@@ -522,89 +539,84 @@ Underfull \hbox (badness 10000) in paragraph at lines 202--206
 
  []
 
-[3 <./Img/kontekstowy.png>]
+[3 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/kontekstowy.png>]
 <Img/DFDpoziom0.png, id=27, 395.97937pt x 767.11594pt>
 File: Img/DFDpoziom0.png Graphic file (type png)
 
 <use Img/DFDpoziom0.png>
 Package pdftex.def Info: Img/DFDpoziom0.png used on input line 216.
 (pdftex.def)             Requested size: 277.18367pt x 536.9775pt.
- <Img/1.png, id=28, 833.36343pt x 400.49625pt>
+ <Img/1.png, id=28, 536.0025pt x 330.48468pt>
 File: Img/1.png Graphic file (type png)
 
 <use Img/1.png>
 Package pdftex.def Info: Img/1.png used on input line 224.
-(pdftex.def)             Requested size: 583.35042pt x 280.34546pt.
-
-Overfull \hbox (128.10631pt too wide) in paragraph at lines 224--225
- [] 
- []
-
-<Img/2.png, id=30, 645.16031pt x 458.46281pt>
-File: Img/2.png Graphic file (type png)
- <use Img/2.png>
-Package pdftex.def Info: Img/2.png used on input line 229.
-(pdftex.def)             Requested size: 451.60913pt x 320.92177pt.
- [4 <./Img/DFDpoziom0.png>] <Img/3.png, id=35, 737.75626pt x 398.99063pt>
+(pdftex.def)             Requested size: 375.19919pt x 231.33769pt.
+ <Img/3.png, id=30, 717.43031pt x 385.44pt>
 File: Img/3.png Graphic file (type png)
  <use Img/3.png>
-Package pdftex.def Info: Img/3.png used on input line 234.
-(pdftex.def)             Requested size: 516.42586pt x 279.29153pt.
+Package pdftex.def Info: Img/3.png used on input line 229.
+(pdftex.def)             Requested size: 502.1978pt x 269.80615pt.
 
-Overfull \hbox (61.18175pt too wide) in paragraph at lines 234--235
+Overfull \hbox (46.95369pt too wide) in paragraph at lines 229--230
  [] 
  []
 
-[5 <./Img/1.png>] <Img/4.png, id=40, 959.83594pt x 537.50812pt>
+[4 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/DFDpoziom0.png>]
+<Img/2.png, id=35, 458.46281pt x 645.16031pt>
+File: Img/2.png Graphic file (type png)
+ <use Img/2.png>
+Package pdftex.def Info: Img/2.png used on input line 234.
+(pdftex.def)             Requested size: 458.46169pt x 645.15872pt.
+
+Overfull \hbox (3.21758pt too wide) in paragraph at lines 234--235
+ [] 
+ []
+
+<Img/4.png, id=36, 537.50812pt x 959.83594pt>
 File: Img/4.png Graphic file (type png)
-
-<use Img/4.png>
+ <use Img/4.png>
 Package pdftex.def Info: Img/4.png used on input line 239.
-(pdftex.def)             Requested size: 671.88058pt x 376.25311pt.
+(pdftex.def)             Requested size: 376.25311pt x 671.88058pt.
+ [5 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/1.png> <D:/Bibliotek
+a/Studia/V semestr/IO/System-hotelowy/Img/3.png>]
+Overfull \vbox (7.65152pt too high) has occurred while \output is active []
 
-Overfull \hbox (216.63647pt too wide) in paragraph at lines 239--240
- [] 
- []
 
-[6 <./Img/2.png>] <Img/5.png, id=46, 881.54344pt x 474.27188pt>
+[6 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/2.png>]
+<Img/5.png, id=47, 474.27188pt x 881.54344pt>
 File: Img/5.png Graphic file (type png)
-
-<use Img/5.png>
+ <use Img/5.png>
 Package pdftex.def Info: Img/5.png used on input line 244.
-(pdftex.def)             Requested size: 617.0762pt x 331.98805pt.
+(pdftex.def)             Requested size: 331.98805pt x 617.0762pt.
 
-Overfull \hbox (161.83209pt too wide) in paragraph at lines 244--245
- [] 
- []
+Overfull \vbox (33.37338pt too high) has occurred while \output is active []
 
-[7 <./Img/3.png>] [8 <./Img/4.png>]
-<Img/1-1.png, id=55, 805.50937pt x 470.50781pt>
+
+[7 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/4.png>]
+<Img/1-1.png, id=52, 805.50937pt x 470.50781pt>
 File: Img/1-1.png Graphic file (type png)
  <use Img/1-1.png>
 Package pdftex.def Info: Img/1-1.png used on input line 253.
-(pdftex.def)             Requested size: 563.8527pt x 329.35321pt.
-
-Overfull \hbox (108.6086pt too wide) in paragraph at lines 253--254
- [] 
- []
-
-[9 <./Img/5.png>] <Img/2-1.png, id=60, 922.94812pt x 443.40656pt>
+(pdftex.def)             Requested size: 402.7537pt x 235.25333pt.
+ [8 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/5.png>]
+<Img/2-1.png, id=57, 542.025pt x 388.45125pt>
 File: Img/2-1.png Graphic file (type png)
-
-<use Img/2-1.png>
+ <use Img/2-1.png>
 Package pdftex.def Info: Img/2-1.png used on input line 259.
-(pdftex.def)             Requested size: 646.05928pt x 310.38248pt.
+(pdftex.def)             Requested size: 433.62057pt x 310.76141pt.
 
-Overfull \hbox (190.81517pt too wide) in paragraph at lines 259--260
- [] 
- []
-
-<Img/2-2.png, id=61, 512.66531pt x 536.75531pt>
+<Img/2-2.png, id=58, 552.56438pt x 536.0025pt>
 File: Img/2-2.png Graphic file (type png)
  <use Img/2-2.png>
 Package pdftex.def Info: Img/2-2.png used on input line 264.
-(pdftex.def)             Requested size: 358.86327pt x 375.72614pt.
- [10 <./Img/1-1.png>] <Img/2-3.png, id=66, 706.13812pt x 507.39563pt>
+(pdftex.def)             Requested size: 552.56302pt x 536.00119pt.
+
+Overfull \hbox (97.31891pt too wide) in paragraph at lines 264--265
+ [] 
+ []
+
+<Img/2-3.png, id=59, 706.13812pt x 507.39563pt>
 File: Img/2-3.png Graphic file (type png)
  <use Img/2-3.png>
 Package pdftex.def Info: Img/2-3.png used on input line 269.
@@ -614,146 +626,193 @@ Overfull \hbox (39.04921pt too wide) in paragraph at lines 269--270
  [] 
  []
 
-[11 <./Img/2-1.png>] <Img/2-4.png, id=71, 861.9703pt x 514.17094pt>
+[9 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/1-1.png> <D:/Bibliote
+ka/Studia/V semestr/IO/System-hotelowy/Img/2-1.png>]
+<Img/2-4.png, id=65, 861.9703pt x 514.17094pt>
 File: Img/2-4.png Graphic file (type png)
-
-<use Img/2-4.png>
+ <use Img/2-4.png>
 Package pdftex.def Info: Img/2-4.png used on input line 274.
-(pdftex.def)             Requested size: 603.3751pt x 359.9172pt.
+(pdftex.def)             Requested size: 517.18617pt x 308.50494pt.
 
-Overfull \hbox (148.131pt too wide) in paragraph at lines 274--275
+Overfull \hbox (61.94206pt too wide) in paragraph at lines 274--275
  [] 
  []
 
-[12 <./Img/2-2.png>] <Img/2-5.png, id=77, 646.66594pt x 454.69875pt>
+[10 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/2-2.png>]
+<Img/2-5.png, id=70, 454.69875pt x 646.66594pt>
 File: Img/2-5.png Graphic file (type png)
-
-<use Img/2-5.png>
+ <use Img/2-5.png>
 Package pdftex.def Info: Img/2-5.png used on input line 279.
-(pdftex.def)             Requested size: 452.66307pt x 318.28694pt.
- [13 <./Img/2-3.png>]
-<Img/3-1.png, id=82, 779.16093pt x 451.6875pt>
+(pdftex.def)             Requested size: 409.22508pt x 581.99396pt.
+ [11 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/2-3.png>]
+<Img/3-1.png, id=75, 831.85782pt x 451.6875pt>
 File: Img/3-1.png Graphic file (type png)
  <use Img/3-1.png>
 Package pdftex.def Info: Img/3-1.png used on input line 284.
-(pdftex.def)             Requested size: 545.40894pt x 316.17908pt.
+(pdftex.def)             Requested size: 540.70117pt x 293.59338pt.
 
-Overfull \hbox (90.16483pt too wide) in paragraph at lines 284--285
+Overfull \hbox (85.45706pt too wide) in paragraph at lines 284--285
  [] 
  []
 
-[14 <./Img/2-4.png>] [15 <./Img/2-5.png>]
-<Img/2-4-1.png, id=91, 950.80219pt x 495.35063pt>
+[12 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/2-4.png>] [13 <D:/Bi
+blioteka/Studia/V semestr/IO/System-hotelowy/Img/2-5.png>]
+<Img/2-4-1.png, id=85, 495.35063pt x 950.80219pt>
 File: Img/2-4-1.png Graphic file (type png)
  <use Img/2-4-1.png>
 Package pdftex.def Info: Img/2-4-1.png used on input line 293.
-(pdftex.def)             Requested size: 665.55699pt x 346.74307pt.
+(pdftex.def)             Requested size: 346.74307pt x 665.55699pt.
+ [14 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/3-1.png>]
+Overfull \vbox (58.45267pt too high) has occurred while \output is active []
 
-Overfull \hbox (210.31288pt too wide) in paragraph at lines 293--294
- [] 
- []
 
-[16 <./Img/3-1.png>] <Img/STD-rezerwacja.png, id=96, 514.17094pt x 529.98pt>
+[15 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/2-4-1.png>]
+<Img/STD-rezerwacja.png, id=94, 514.17094pt x 529.98pt>
 File: Img/STD-rezerwacja.png Graphic file (type png)
 
 <use Img/STD-rezerwacja.png>
 Package pdftex.def Info: Img/STD-rezerwacja.png used on input line 302.
-(pdftex.def)             Requested size: 411.33731pt x 423.98456pt.
- [17 <./Img/2-4-1.png>]
-<Img/STD-klient.png, id=101, 740.0147pt x 516.42938pt>
-File: Img/STD-klient.png Graphic file (type png)
+(pdftex.def)             Requested size: 462.74957pt x 476.97757pt.
 
-<use Img/STD-klient.png>
-Package pdftex.def Info: Img/STD-klient.png used on input line 308.
-(pdftex.def)             Requested size: 592.01257pt x 413.14406pt.
-
-Overfull \hbox (136.76846pt too wide) in paragraph at lines 308--309
+Overfull \hbox (7.50546pt too wide) in paragraph at lines 302--303
 [][] 
  []
 
-[18 <./Img/STD-rezerwacja.png>]
-<Img/STD-2-5.png, id=107, 886.06032pt x 472.01344pt>
+<Img/STD-klient1.png, id=95, 402.00188pt x 412.54124pt>
+File: Img/STD-klient1.png Graphic file (type png)
+
+<use Img/STD-klient1.png>
+Package pdftex.def Info: Img/STD-klient1.png used on input line 308.
+(pdftex.def)             Requested size: 402.00089pt x 412.54024pt.
+ [16 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/STD-rezerwacja.png>
+]
+<Img/STD-klient2.png, id=100, 423.83344pt x 414.79968pt>
+File: Img/STD-klient2.png Graphic file (type png)
+
+<use Img/STD-klient2.png>
+Package pdftex.def Info: Img/STD-klient2.png used on input line 313.
+(pdftex.def)             Requested size: 423.83238pt x 414.79868pt.
+ [17 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/STD-klient1.png>]
+<Img/STD-klient3.png, id=104, 389.95688pt x 419.31656pt>
+File: Img/STD-klient3.png Graphic file (type png)
+
+<use Img/STD-klient3.png>
+Package pdftex.def Info: Img/STD-klient3.png used on input line 318.
+(pdftex.def)             Requested size: 389.95592pt x 419.31552pt.
+ [18 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/STD-klient2.png>] <
+Img/STD-2-5.png, id=109, 886.06032pt x 472.01344pt>
 File: Img/STD-2-5.png Graphic file (type png)
- <use Img/STD-2-5.png>
-Package pdftex.def Info: Img/STD-2-5.png used on input line 314.
+
+<use Img/STD-2-5.png>
+Package pdftex.def Info: Img/STD-2-5.png used on input line 324.
 (pdftex.def)             Requested size: 708.84923pt x 377.61127pt.
 
-Overfull \hbox (253.60512pt too wide) in paragraph at lines 314--315
+Overfull \hbox (253.60512pt too wide) in paragraph at lines 324--325
 [][] 
  []
 
-[19 <./Img/STD-klient.png>]
-<Img/STD-kierownik1.png, id=112, 616.55344pt x 500.62032pt>
+[19 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/STD-klient3.png>]
+<Img/STD-kierownik1.png, id=113, 389.95688pt x 419.31656pt>
 File: Img/STD-kierownik1.png Graphic file (type png)
 
 <use Img/STD-kierownik1.png>
-Package pdftex.def Info: Img/STD-kierownik1.png used on input line 320.
-(pdftex.def)             Requested size: 493.24341pt x 400.4968pt.
+Package pdftex.def Info: Img/STD-kierownik1.png used on input line 330.
+(pdftex.def)             Requested size: 389.95592pt x 419.31552pt.
 
-Overfull \hbox (37.9993pt too wide) in paragraph at lines 320--321
-[][] 
- []
-
-[20 <./Img/STD-2-5.png>]
-<Img/STD-kierownik2.png, id=117, 951.555pt x 569.12625pt>
+<Img/STD-kierownik2.png, id=114, 335.00156pt x 374.14781pt>
 File: Img/STD-kierownik2.png Graphic file (type png)
 
 <use Img/STD-kierownik2.png>
-Package pdftex.def Info: Img/STD-kierownik2.png used on input line 326.
-(pdftex.def)             Requested size: 761.24504pt x 455.30162pt.
+Package pdftex.def Info: Img/STD-kierownik2.png used on input line 334.
+(pdftex.def)             Requested size: 335.00073pt x 374.14688pt.
+ [20 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/STD-2-5.png>]
+<Img/STD-kierownik3.png, id=119, 377.15906pt x 374.14781pt>
+File: Img/STD-kierownik3.png Graphic file (type png)
 
-Overfull \hbox (306.00093pt too wide) in paragraph at lines 326--327
+<use Img/STD-kierownik3.png>
+Package pdftex.def Info: Img/STD-kierownik3.png used on input line 338.
+(pdftex.def)             Requested size: 377.15814pt x 374.14688pt.
+ [21 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/STD-kierownik1.png>
+] [22 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/STD-kierownik2.png
+>]
+<Img/STD-ankieta.png, id=126, 526.21594pt x 393.72093pt>
+File: Img/STD-ankieta.png Graphic file (type png)
+
+<use Img/STD-ankieta.png>
+Package pdftex.def Info: Img/STD-ankieta.png used on input line 344.
+(pdftex.def)             Requested size: 526.21466pt x 393.71997pt.
+
+Overfull \hbox (70.97055pt too wide) in paragraph at lines 344--345
 [][] 
  []
 
-[21 <./Img/STD-kierownik1.png>]
-<Img/ERD.png, id=122, 883.04906pt x 447.17062pt>
-File: Img/ERD.png Graphic file (type png)
- <use Img/ERD.png>
-Package pdftex.def Info: Img/ERD.png used on input line 336.
-(pdftex.def)             Requested size: 706.4402pt x 357.73698pt.
+<Img/STD-ankieta2.png, id=127, 377.91188pt x 393.72093pt>
+File: Img/STD-ankieta2.png Graphic file (type png)
 
-Overfull \hbox (251.19609pt too wide) in paragraph at lines 336--337
-[][] 
- []
+<use Img/STD-ankieta2.png>
+Package pdftex.def Info: Img/STD-ankieta2.png used on input line 348.
+(pdftex.def)             Requested size: 377.91095pt x 393.71997pt.
+ [23 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/STD-kierownik3.png>
+] [24 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/STD-ankieta.png>] 
+<Img/ERD1.png, id=136, 438.13687pt x 600.74437pt>
+File: Img/ERD1.png Graphic file (type png)
 
-[22 <./Img/STD-kierownik2.png>] [23 <./Img/ERD.png>] [24] [25] [26]
-Overfull \hbox (34.56361pt too wide) in paragraph at lines 622--623
+<use Img/ERD1.png>
+Package pdftex.def Info: Img/ERD1.png used on input line 358.
+(pdftex.def)             Requested size: 438.13579pt x 600.7429pt.
+ <Img/ERD2.png, id=137, 446.41782pt x 405.76593pt>
+File: Img/ERD2.png Graphic file (type png)
+
+<use Img/ERD2.png>
+Package pdftex.def Info: Img/ERD2.png used on input line 362.
+(pdftex.def)             Requested size: 446.41672pt x 405.76494pt.
+ [25 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/STD-ankieta2.png>] 
+[26 <D:/Biblioteka/Studia/V semestr/IO/System-hotelowy/Img/ERD1.png>] [27 <D:/B
+iblioteka/Studia/V semestr/IO/System-hotelowy/Img/ERD2.png>]
+[28] [29] [30]
+Overfull \hbox (34.56361pt too wide) in paragraph at lines 648--649
 []\T1/cmr/m/n/10.95 Na pod-sta-wie stanu trans-ak-cji, wy-dru-ko-wa-nie po-twie
 r-dze-nia (pa-ra-gonu,faktury), 
  []
 
-[27] [28] [29] [30] (dokumentacjalatex.aux)
+[31] [32] [33] [34] [35]
+Overfull \hbox (23.37886pt too wide) in paragraph at lines 975--976
+[]\T1/cmr/m/n/10.95 Szczegóªowe in-for-ma-cje do-ty-cz¡ce trans-portu ba-ga»u =
+ nrpo-koju+idklienta+godzina+data 
+ []
+
+[36] [37]
+("D:\Biblioteka\Studia\V semestr\IO\System-hotelowy\dokumentacjalatex.aux")
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.17pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 3564 strings out of 493673
- 46149 string characters out of 3151263
- 115122 words of memory out of 3000000
- 6809 multiletter control sequences out of 15000+200000
+ 3502 strings out of 493921
+ 48063 string characters out of 3147285
+ 106418 words of memory out of 3000000
+ 6692 multiletter control sequences out of 15000+200000
  16680 words of font info for 38 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
+ 841 hyphenation exceptions out of 8191
  28i,7n,32p,530b,666s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Sebastian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi
-600\ecbx1200.pk> <C:\Users\Sebastian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
-knappen\ec\dpi600\ecrm1095.pk> <C:\Users\Sebastian\AppData\Local\MiKTeX\2.9\fon
-ts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\Sebastian\AppData\Local\
-MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Sebastian\
-AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Us
-ers\Sebastian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1
-440.pk> <C:\Users\Sebastian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
-c\dpi600\ecti1440.pk> <C:\Users\Sebastian\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\ecrm3583.pk> <C:\Users\Sebastian\AppData\Local\MiKTeX\2.
-9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Users\Sebastian\AppData\L
-ocal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1440.pk> <C:\Users\Sebas
-tian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728.pk><D
-:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on dokumentacjalatex.pdf (31 pages, 1099558 bytes).
+ <C:\Users\USER\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
+cbx1200.pk> <C:\Users\USER\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
+\dpi600\ecrm1095.pk> <C:\Users\USER\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
+nappen\ec\dpi600\ecbx1095.pk> <C:\Users\USER\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\USER\AppData\Local\MiKTeX\2.9\
+fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\USER\AppData\Local\Mi
+KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\USER\AppData
+\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1440.pk> <C:\Users\USE
+R\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm3583.pk> <C:\
+Users\USER\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200
+.pk> <C:\Users\USER\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\eccc1440.pk> <C:\Users\USER\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\eccc1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb>
+Output written on dokumentacjalatex.pdf (38 pages, 1155035 bytes).
 PDF statistics:
- 486 PDF objects out of 1000 (max. 8388607)
+ 528 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
