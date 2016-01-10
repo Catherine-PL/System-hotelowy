@@ -404,14 +404,21 @@
 				\begin{description}
 					\item[Wejście:]	Wypełniona ankieta 
 					\item[Wyjście:]	Poprawna ankieta, Niepoprawna ankieta
-					\item[Działanie:] Wypełnioną ankietę segreguje względem poprawności.
+					\item[Działanie:] 
+					\begin{itemize}
+						\item[-] Segregacja wypełnionej ankiety względem poprawności.
+					\end{itemize}										
 				\end{description}				
 				\item Niszczenie ankiety
-				\begin{description}
-					\item[Wejście:] Niepoprawna ankieta
-					\item[Wyjście:] 
-					\item[Działanie:] Wrzucenie ankiety do niszczarki, wyrzucenie śmieci.
-				\end{description}				
+				\begin{itemize}			
+					\item[\textbf{Wejście:}] Niepoprawna ankieta
+					\item[\textbf{Wyjście:}] -
+					\item[\textbf{Działanie:}]
+					\begin{itemize}
+						\item[-] Wrzucenie ankiety do niszczarki,
+						\item[-] Wyrzucenie śmieci,
+					\end{itemize}										
+				\end{itemize}				
 				\item Konwersja danych do postaci elektronicznej
 				\begin{description}
 					\item[Wejście:] Poprawna ankieta
@@ -486,9 +493,9 @@
 				\end{description}	
 				\item Powiadomienie klienta o stanie rezerwacji
 				\begin{description}
-					\item[Wejście:] Stan rezerwacji
-					\item[Wyjście:]
-					\item[Działanie:]
+					\item[Wejście:] Stan rezerwacji, Informacja o braku rezerwacji
+					\item[Wyjście:] Informacja o rezerwacji
+					\item[Działanie:] W zależności od wejścia, generowana jest informacja dla klienta.
 				\end{description}	
 			\end{enumerate}									
 			\item Obsługa klienta wychodzącego
