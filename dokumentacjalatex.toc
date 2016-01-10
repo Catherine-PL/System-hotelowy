@@ -8,7 +8,8 @@
 \contentsline {subsection}{\numberline {5.2}poziom 1}{5}
 \contentsline {subsection}{\numberline {5.3}poziom 2}{10}
 \contentsline {subsection}{\numberline {5.4}poziom 3}{17}
-\contentsline {section}{\numberline {6}Diagram ERD}{18}
-\contentsline {section}{\numberline {7}Specyfikacja proces\IeC {\'o}w PSPEC}{19}
-\contentsline {subsection}{\numberline {7.1}Spis}{19}
-\contentsline {subsection}{\numberline {7.2}Opis}{20}
+\contentsline {section}{\numberline {6}Diagram STD}{18}
+\contentsline {section}{\numberline {7}Diagram ERD}{23}
+\contentsline {section}{\numberline {8}Specyfikacja proces\IeC {\'o}w PSPEC}{24}
+\contentsline {subsection}{\numberline {8.1}Spis}{24}
+\contentsline {subsection}{\numberline {8.2}Opis}{25}
