@@ -401,14 +401,14 @@
 			\item Analiza ankiety
 			\begin{enumerate}[label*=\arabic*.]
 				\item Sprawdzenie poprawności ankiety
-				\begin{description}
-					\item[Wejście:]	Wypełniona ankieta 
-					\item[Wyjście:]	Poprawna ankieta, Niepoprawna ankieta
-					\item[Działanie:] 
+				\begin{itemize}
+					\item[\textbf{Wejście:}]	Wypełniona ankieta 
+					\item[\textbf{Wyjście:}]	Poprawna ankieta, Niepoprawna ankieta
+					\item[\textbf{Działanie:}] 
 					\begin{itemize}
 						\item[-] Segregacja wypełnionej ankiety względem poprawności.
 					\end{itemize}										
-				\end{description}				
+				\end{itemize}				
 				\item Niszczenie ankiety
 				\begin{itemize}			
 					\item[\textbf{Wejście:}] Niepoprawna ankieta
@@ -420,182 +420,240 @@
 					\end{itemize}										
 				\end{itemize}				
 				\item Konwersja danych do postaci elektronicznej
-				\begin{description}
-					\item[Wejście:] Poprawna ankieta
-					\item[Wyjście:] Elektroniczne wyniki ankiety
-					\item[Działanie:] Przepisanie krok po kroku wszystkich pól z ankiety do systemu informatycznego i zapisanie wyników.
-				\end{description}	
+				\begin{itemize}
+					\item[\textbf{Wejście:}] Poprawna ankieta
+					\item[\textbf{Wyjście:}] Elektroniczne wyniki ankiety
+					\item[\textbf{Działanie:}] 
+					\begin{itemize}
+						\item[-] Przepisanie krok po kroku wszystkich pól z ankiety do systemu informatycznego,
+						\item[-] zapisanie wyników,
+					\end{itemize}					
+				\end{itemize}	
 			\end{enumerate}
 			\item Stworzenie raportu, diagramów
-			\begin{description}
-				\item[Wejście:] Ankiety w formie elektronicznej
-				\item[Wyjście:] Raport wraz z diagramami
-				\item[Działanie:] Wpierw sporządzenie na podstawie ankiet wykresów statystycznych zadowoleń. Następnie ich analiza i wyciągnięcie wniosków w postaci sprawozdania wraz z diagramami.
-			\end{description}	
+			\begin{itemize}
+				\item[\textbf{Wejście:}] Ankiety w formie elektronicznej
+				\item[\textbf{Wyjście:}] Raport wraz z diagramami
+				\item[\textbf{Działanie:}] 
+				\begin{itemize}
+					\item[-] Sporządzenie na podstawie ankiet wykresów statystycznych zadowoleń,
+					\item[-] Ich analiza,
+					\item[-] wyciągnięcie wniosków w postaci sprawozdania wraz z diagramami,
+				\end{itemize}									
+			\end{itemize}	
 		\end{enumerate}
 		\item Obsługa klienta
 		\begin{enumerate}[label*=\arabic*.]
 			\item Obsługa rezerwacji
 			\begin{enumerate}[label*=\arabic*.]
 				\item Wcielenie rezerwacji
-				\begin{description}
-					\item[Wejście:] Informacja o chęci rezerwacji, lista dostępnych pokoi, koszt noclegu
-					\item[Wyjście:] dostępność pokojów i ich cena, stan rezerwacji klienta, sygnał żądania pobrania informacji o pokojach.
-					\item[Działanie:] Przedstawienie w jasnej formie ofert pokoi i ich cen. Następnie zaakceptowanie wyboru klienta i przesłanie dalej informacji do aktualizacji bazy danych.
-				\end{description}	
+				\begin{itemize}
+					\item[\textbf{Wejście:}] Informacja o chęci rezerwacji, lista dostępnych pokoi, koszt noclegu
+					\item[\textbf{Wyjście:}] Dostępność pokojów i ich cena, stan rezerwacji klienta, sygnał żądania pobrania informacji o pokojach.
+					\item[\textbf{Działanie:}]
+					\begin{itemize}
+						\item[-] Przedstawienie w jasnej formie ofert pokoi i ich cen,
+						\item[-] Zaakceptowanie wyboru klienta,
+						\item[-] przesłanie dalej informacji do aktualizacji bazy danych,
+					\end{itemize}									
+				\end{itemize}	
 				\item Zdobywanie potrzebnych informacji
-				\begin{description}
-					\item[Wejście:] Informacje o dostępnych pokojach, żądanie o te informacje
-					\item[Wyjście:] Informacje o dostępnych pokojach, żądanie o te informacje
-					\item[Działanie:] Na żądanie informacji o dostępach pokoi, wysyła o nie zapytania do obsługi bazy danych, a jak już je uzyska, filtruje pokoje zajęte i przekazuje podmiotom zainteresowanym.
-				\end{description}	
+				\begin{itemize}
+					\item[\textbf{Wejście:}] Informacje o dostępnych pokojach, żądanie o te informacje
+					\item[\textbf{Wyjście:}] Informacje o dostępnych pokojach, żądanie o te informacje
+					\item[\textbf{Działanie:}] 
+					\begin{itemize}
+						\item[-] Na żądanie informacji o dostępach pokoi wysłanie zapytania do obsługi bazy danych,
+						\item[-] Filtracja pokoi ze względu na zajęte,
+						\item[-] Przekazanie informacji podmiotom zainteresowanym,
+					\end{itemize}														
+				\end{itemize}	
 			\end{enumerate}
 			\item Obsługa magazynu
 			\begin{enumerate}[label*=\arabic*.]
 				\item Przetworzenie danych
-				\begin{description}
-					\item[Wejście:] Żądanie informacji o rezerwacji, zmieniony stan rezerwacji
-					\item[Wyjście:] Informacje o dostępnych pokojach
-					\item[Działanie:] Na żądanie, pobiera informacje z bazy danych na temat rezerwacji. Następnie przetwarza je, do czytelniejszej postaci i odsyła zainteresowanemu podmiotowi. W przypadku otrzymania stanu rezerwacji, przekłada go na  system informatyczny i zapisuje dane.
-				\end{description}	
+				\begin{itemize}
+					\item[\textbf{Wejście:}] Żądanie informacji o rezerwacji, zmieniony stan rezerwacji
+					\item[\textbf{Wyjście:}] Informacje o dostępnych pokojach
+					\item[\textbf{Działanie:}] 
+					\begin{itemize}
+						\item[-] Na żądanie, pobieranie informacji z bazy danych na temat rezerwacji,
+						\item[-] Przetwarzanie ich, do czytelniejszej postaci,
+						\item[-] Odesłanie zainteresowanemu podmiotowi,
+						\item[-] W przypadku otrzymania stanu rezerwacji, przełożenie go na system informatyczny
+						\item[-] Zapisanie danych.
+					\end{itemize}														
+				\end{itemize}	
 				\item Przetworzenie informacji
-				\begin{description}
-					\item[Wejście:] Żądanie o dostępności pokoi
-					\item[Wyjście:] Graficzna forma informacji o dostępnych pokoi
-					\item[Działanie:] Na żądanie, pobiera informacje z bazy danych na temat dostępności pokoi. Następnie przetwarza je, do graficznej postaci i odsyła zainteresowanemu podmiotowi.
-				\end{description}	
+				\begin{itemize}
+					\item[\textbf{Wejście:}] Żądanie o dostępności pokoi
+					\item[\textbf{Wyjście:}] Graficzna forma informacji o dostępnych pokoi
+					\item[\textbf{Działanie:}]
+					\begin{itemize}
+						\item[-] Na żądanie, pobieranie informacji z bazy danych na temat dostępności pokoi,
+						\item[-] Przetwarza do graficznej postaci,
+						\item[-] Odesłanie zainteresowanemu podmiotowi,
+					\end{itemize}														
+				\end{itemize}	
 				\item Sumowanie kosztów zamówień
-				\begin{description}
-					\item[Wejście:] Koszty zamówień klienta, żądanie całkowitego kosztu
-					\item[Wyjście:] Całkowity koszt klienta
-					\item[Działanie:] Na żądanie, pobiera informacje z bazy danych na temat wszystkich usług i kosztów klienta. Następnie je sumuje i po przełożeniu do czytelniejszej formy, odsyła zainteresowanemu podmiotowi.
-				\end{description}	
+				\begin{itemize}
+					\item[\textbf{Wejście:}] Koszty zamówień klienta, żądanie całkowitego kosztu
+					\item[\textbf{Wyjście:}] Całkowity koszt klienta
+					\item[\textbf{Działanie:}] 
+					\begin{itemize}
+						\item[-] Na żądanie, pobieranie informacji z bazy danych na temat wszystkich usług i kosztów klienta,
+						\item[-] Zsumowanie kosztów,
+						\item[-] Przełożenie do czytelniejszej formy,
+						\item[-] Odesłanie zainteresowanemu podmiotowi,
+					\end{itemize}														
+				\end{itemize}	
 				\item Przygotowanie posiłku
-				\begin{description}
-					\item[Wejście:] nazwa posiłku
-					\item[Wyjście:] posiłek
-					\item[Działanie:] Na podstawie nazwy posiłku, pobiera składniki z magazynu produktów spożywczych, przygotowuje z nich zestaw, cały posiłek i wydaje dalej zainteresowanemu podmiotowi.
-				\end{description}	
+				\begin{itemize}
+					\item[\textbf{Wejście:}] nazwa posiłku
+					\item[\textbf{Wyjście:}] posiłek
+					\item[\textbf{Działanie:}] 
+					\begin{itemize}
+						\item[-] Na podstawie nazwy posiłku, pobieranie składników z magazynu produktów spożywczych,
+						\item[-] Przygotowanie z nich zestawu, całego posiłku,
+						\item[-] Odesłanie zainteresowanemu podmiotowi,
+					\end{itemize}														
+				\end{itemize}	
 			\end{enumerate}						
 			\item Obsługa klienta meldującego się 
 			\begin{enumerate}[label*=\arabic*.]
 				\item Weryfikacja klienta
-				\begin{description}
-					\item[Wejście:] Dane klienta
-					\item[Wyjście:] Żądanie informacji dot. rezerwacji
-					\item[Działanie:] Analizowanie danych osobowych klienta i sformułowanie poprawnego żądanie.
-				\end{description}	
+				\begin{itemize}
+					\item[\textbf{Wejście:}] Dane klienta
+					\item[\textbf{Wyjście:}] Żądanie informacji dot. rezerwacji
+					\item[\textbf{Działanie:}] 
+					\begin{itemize}
+						\item[-] Analizowanie danych osobowych klienta,
+						\item[-] Sformułowanie poprawnego żądanie,
+					\end{itemize}														
+				\end{itemize}	
 				\item Realizacja rezerwacji
-				\begin{description}
-					\item[Wejście:] Potwierdzenie istnienia rezerwacji, klucze
-					\item[Wyjście:] Klucze, Stan rezerwacji
-					\item[Działanie:] Na podstawie pozytywnej informacji o rezerwacji, dokonuje zmiany stanu rezerwacji na zrealizowana i stan ten propagowany jest dalej. Pobiera odpowiednie klucze z magazynu i udostępnia je klientowi.
-				\end{description}	
+				\begin{itemize}
+					\item[\textbf{Wejście:}] Potwierdzenie istnienia rezerwacji, klucze
+					\item[\textbf{Wyjście:}] Klucze, Stan rezerwacji
+					\item[\textbf{Działanie:}] 
+					\begin{itemize}
+						\item[-] Na podstawie pozytywnej informacji o rezerwacji, dokonanie zmiany stanu rezerwacji,
+						\item[-] Propagowanie stanu dalej,
+						\item[-] Pobranie odpowiedniego klucza z magazynu,
+						\item[-] Udostępnienie go klientowi,
+					\end{itemize}														
+				\end{itemize}	
 				\item Powiadomienie klienta o stanie rezerwacji
-				\begin{description}
-					\item[Wejście:] Stan rezerwacji, Informacja o braku rezerwacji
-					\item[Wyjście:] Informacja o rezerwacji
-					\item[Działanie:] W zależności od wejścia, generowana jest informacja dla klienta.
-				\end{description}	
+				\begin{itemize}
+					\item[\textbf{Wejście:}] Stan rezerwacji, Informacja o braku rezerwacji
+					\item[\textbf{Wyjście:}] Informacja o rezerwacji
+					\item[\textbf{Działanie:}] 
+					\begin{itemize}
+						\item[-] Przedstawienie w jasnej formie ofert pokoi i ich cen,
+						\item[-] Zaakceptowanie wyboru klienta,
+						\item[-] Przesłanie dalej informacji do aktualizacji bazy danych,
+						\item[-] W zależności od wejścia, generowana jest informacja dla klienta,
+					\end{itemize}														
+				\end{itemize}	
 			\end{enumerate}									
 			\item Obsługa klienta wychodzącego
 			\begin{enumerate}[label*=\arabic*.]
 				\item Realizacja zapłaty
 				\begin{enumerate}[label*=\arabic*.]
 					\item Wybór sposobu płatności
-					\begin{description}
-						\item Wejście: 
-						\item Wyjście:
-						\item Działanie: 
-					\end{description}
+					\begin{itemize}
+						\item [\textbf{Wejście:}] 
+						\item [\textbf{Wyjście:}]
+						\item [\textbf{Działanie:}]
+					\end{itemize}
 					\item Uregulowanie kosztów
-					\begin{description}
-						\item Wejście: 
-						\item Wyjście:
-						\item Działanie: 
-					\end{description}					
+					\begin{itemize}
+						\item [\textbf{Wejście:}] 
+						\item [\textbf{Wyjście:}]
+						\item [\textbf{Działanie:}] 
+					\end{itemize}					
 					\item Sporządzenie potwierdzenia
-					\begin{description}
-						\item Wejście: 
-						\item Wyjście:
-						\item Działanie: 
-					\end{description}
+					\begin{itemize}
+						\item [\textbf{Wejście:}] 
+						\item [\textbf{Wyjście:}]
+						\item [\textbf{Działanie:}] 
+					\end{itemize}
 					\item Zliczenie kosztów
-					\begin{description}
-						\item Wejście: 
-						\item Wyjście:
-						\item Działanie: 
-					\end{description}
+					\begin{itemize}
+						\item [\textbf{Wejście:}] 
+						\item [\textbf{Wyjście:}]
+						\item [\textbf{Działanie:}] 
+					\end{itemize}
 					\item Obciążenie konta
-					\begin{description}
-						\item Wejście: 
-						\item Wyjście:
-						\item Działanie: 
-					\end{description}
+					\begin{itemize}
+						\item [\textbf{Wejście:}] 
+						\item [\textbf{Wyjście:}]
+						\item [\textbf{Działanie:}] 
+					\end{itemize}
 				\end{enumerate}													
 				\item Składanie kluczy
-				\begin{description}
-					\item Wejście: 
-					\item Wyjście:
-					\item Działanie: 
-				\end{description}
+				\begin{itemize}
+					\item [\textbf{Wejście:}] 
+					\item [\textbf{Wyjście:}]
+					\item [\textbf{Działanie:}] 
+				\end{itemize}
 				\item Wystawianie rachunku
-				\begin{description}
-					\item Wejście: 
-					\item Wyjście:
-					\item Działanie: 
-				\end{description}
+				\begin{itemize}
+					\item [\textbf{Wejście:}] 
+					\item [\textbf{Wyjście:}]
+					\item [\textbf{Działanie:}] 
+				\end{itemize}
 				\item Zliczenie kosztów
-				\begin{description}
-					\item Wejście: 
-					\item Wyjście:
-					\item Działanie: 
-				\end{description}
+				\begin{itemize}
+					\item [\textbf{Wejście:}] 
+					\item [\textbf{Wyjście:}]
+					\item [\textbf{Działanie:}] 
+				\end{itemize}
 			\end{enumerate}						
 			\item Obsługa klienta przebywającego
 			\begin{enumerate}[label*=\arabic*.]
 				\item Rozdzielenie zamówień
-				\begin{description}
-					\item Wejście: 
-					\item Wyjście:
-					\item Działanie: 
-				\end{description}
+				\begin{itemize}
+					\item [\textbf{Wejście:}] 
+					\item [\textbf{Wyjście:}]
+					\item [\textbf{Działanie:}] 
+				\end{itemize}
 				\item Przeniesienie bagażu
-				\begin{description}
-					\item Wejście: 
-					\item Wyjście:
-					\item Działanie: 
-				\end{description}
+				\begin{itemize}
+					\item [\textbf{Wejście:}] 
+					\item [\textbf{Wyjście:}]
+					\item [\textbf{Działanie:}] 
+				\end{itemize}
 				\item Redakcja informacji o zamówieniach
-				\begin{description}
-					\item Wejście: 
-					\item Wyjście:
-					\item Działanie: 
-				\end{description}
+				\begin{itemize}
+					\item [\textbf{Wejście:}] 
+					\item [\textbf{Wyjście:}]
+					\item [\textbf{Działanie:}] 
+				\end{itemize}
 				\item Zamówienie taksówki
-				\begin{description}
-					\item Wejście: 
-					\item Wyjście:
-					\item Działanie: 
-				\end{description}
+				\begin{itemize}
+					\item [\textbf{Wejście:}] 
+					\item [\textbf{Wyjście:}]
+					\item [\textbf{Działanie:}] 
+				\end{itemize}
 				\item Zamówienie sprzątania
-				\begin{description}
-					\item Wejście: 
-					\item Wyjście:
-					\item Działanie: 
-				\end{description}
+				\begin{itemize}
+					\item [\textbf{Wejście:}] 
+					\item [\textbf{Wyjście:}]
+					\item [\textbf{Działanie:}] 
+				\end{itemize}
 				\item Zamówienie posiłku
-				\begin{description}
-					\item Wejście: 
-					\item Wyjście:
-					\item Działanie: 
-				\end{description}
+				\begin{itemize}
+					\item [\textbf{Wejście:}] 
+					\item [\textbf{Wyjście:}]
+					\item [\textbf{Działanie:}] 
+				\end{itemize}
 				\item Obsługa magazynu
-				\begin{description}
-					\item Wejście: 
-					\item Wyjście:
-					\item Działanie: 
-				\end{description}
+				\begin{itemize}
+					\item [\textbf{Wejście:}] 
+					\item [\textbf{Wyjście:}]
+					\item [\textbf{Działanie:}] 
+				\end{itemize}
 			\end{enumerate}						
 		\end{enumerate}
 		\item Marketing hotelu
@@ -603,61 +661,61 @@
 			\item Zarządzanie marketingiem
 			\begin{enumerate}[label*=\arabic*.]
 				\item Cykliczne wysyłanie zleceń
-				\begin{description}
-					\item Wejście: 
-					\item Wyjście:
-					\item Działanie: 
-				\end{description}
+				\begin{itemize}
+					\item [\textbf{Wejście:}] 
+					\item [\textbf{Wyjście:}]
+					\item [\textbf{Działanie:}] 
+				\end{itemize}
 				\item Analiza raportów
-				\begin{description}
-					\item Wejście: 
-					\item Wyjście:
-					\item Działanie: 
-				\end{description}
+				\begin{itemize}
+					\item [\textbf{Wejście:}] 
+					\item [\textbf{Wyjście:}]
+					\item [\textbf{Działanie:}] 
+				\end{itemize}
 			\end{enumerate}	
 			\item Tworzenie raportu
 		\end{enumerate}		
 		\item Kontrola magazynu
 		\begin{enumerate}[label*=\arabic*.]
 			\item Rozdzielenie listy potrzeb
-			\begin{description}
-				\item Wejście: 
-				\item Wyjście:
-				\item Działanie: 
-			\end{description}
+			\begin{itemize}
+				\item [\textbf{Wejście:}] 
+				\item [\textbf{Wyjście:}]
+				\item [\textbf{Działanie:}] 
+			\end{itemize}
 			\item Organizacja produktów z Hurtowni			
-			\begin{description}
-				\item Wejście: 
-				\item Wyjście:
-				\item Działanie: 
-			\end{description}
+			\begin{itemize}
+				\item [\textbf{Wejście:}] 
+				\item [\textbf{Wyjście:}]
+				\item [\textbf{Działanie:}] 
+			\end{itemize}
 			\item Organizacja produktów spożywczych
-			\begin{description}
-				\item Wejście: 
-				\item Wyjście:
-				\item Działanie: 
-			\end{description}
+			\begin{itemize}
+				\item [\textbf{Wejście:}] 
+				\item [\textbf{Wyjście:}]
+				\item [\textbf{Działanie:}] 
+			\end{itemize}
 		\end{enumerate}	
 		\item Księgowość
 		\begin{enumerate}[label*=\arabic*.]
 			\item Ustalenie priorytetów
-			\begin{description}
-				\item Wejście: 
-				\item Wyjście:
-				\item Działanie: 
-			\end{description}
+			\begin{itemize}
+				\item [\textbf{Wejście:}] 
+				\item [\textbf{Wyjście:}]
+				\item [\textbf{Działanie:}] 
+			\end{itemize}
 			\item Tworzenie raportów
-			\begin{description}
-				\item Wejście: 
-				\item Wyjście:
-				\item Działanie: 
-			\end{description}
+			\begin{itemize}
+				\item [\textbf{Wejście:}] 
+				\item [\textbf{Wyjście:}]
+				\item [\textbf{Działanie:}] 
+			\end{itemize}
 			\item Zbieranie potrzebnych dokumentów			
-			\begin{description}
-				\item Wejście: 
-				\item Wyjście:
-				\item Działanie: 
-			\end{description}
+			\begin{itemize}
+				\item [\textbf{Wejście:}] 
+				\item [\textbf{Wyjście:}]
+				\item [\textbf{Działanie:}] 
+			\end{itemize}
 		\end{enumerate}	
 	\end{enumerate}
 	
